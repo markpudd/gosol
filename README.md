@@ -4,7 +4,8 @@ This is a simple ASCII based Solitaire implementation written to learn go.
 
 Screenshot :-
 
-```T   Y       A   B   C   D
+```
+T   Y       A   B   C   D
 XXX ooo     XXX XXX XXX XXX
 
 1   2   3   4   5   6   7
@@ -19,7 +20,8 @@ XXX ooo     XXX XXX XXX XXX
 
 To play:-
 
-```  TT - Take a card from deck
+```  
+  TT - Take a card from deck
   QQ - Quit
   NN - New game
   Y{A-D}     - Move turned card from turned deck to end pile

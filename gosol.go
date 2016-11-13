@@ -9,7 +9,7 @@ import (
 
 func main() {
   var f,t byte
-  g := common.NewGame()
+  g := gosol.NewGame()
   g.ShowBoard()
   fmt.Scanf("%c%c\n",&f,&t)
   for g.Turn(f,t) {
